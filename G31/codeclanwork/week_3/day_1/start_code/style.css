@@ -1,0 +1,49 @@
+body {
+    margin: 0%;
+    background-color: deeppink;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+body>footer>p {
+    background-color: cornflowerblue;
+    padding: 16px;
+    color: burlywood;
+    text-align: center;
+}
+
+body>header {
+
+    background-color: mediumseagreen;
+    color: coral;
+}
+
+
+#logo {
+    margin: 0;
+    font-family: 'Macondo', cursive;
+}
+
+nav>ul {
+    list-style: none
+}
+
+nav>ul>li>a {
+    color: slateblue;
+}
+
+body>main>article {
+    width: 70%;
+    margin: auto;
+}
+
+
+.like-button {
+    background-color: transparent;
+    border: 1px solid dodgerblue;
+}
+
+.share-button {
+    background-color: transparent;
+    border: 1px solid greenyellow;
+}

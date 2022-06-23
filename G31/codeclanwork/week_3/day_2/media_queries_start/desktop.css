@@ -1,0 +1,11 @@
+@media (min-width:1080px){
+    body > header {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    body > main > {
+        flex-direction: row;
+    }
+
+}
