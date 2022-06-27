@@ -93,9 +93,17 @@ function App() {
   }
 
   const divide = (number) => {
+    if (number) {
     let calculatedNumber = parseFloat(previousTotal) / parseFloat(number);
     setRunningTotal(calculatedNumber);
     setCalculatedTotal(calculatedNumber);
+    
+    } else{
+      setRunningTotal('error')
+    
+
+    }
+
   }
 
 
